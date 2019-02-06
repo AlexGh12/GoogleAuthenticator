@@ -13,3 +13,7 @@
 	<input type="hidden" value="<?php echo $codigo_secreto; ?>" name="codigosecreto">
 	<input type="submit" value="Verificar">
 </form>
+
+
+
+<!-- Solo es un cambio de prueba -->
