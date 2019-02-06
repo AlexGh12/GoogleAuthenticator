@@ -1,17 +1,18 @@
 <?php
 
-	// require_once( 'vendor/autoload.php' );
-
+	// Agreamos Clase
 	require_once( 'GoogleAuthenticator.php' );
 
+	
+	// Creamos Codigo d cliente
 	$autenticador = new GoogleAuthenticator();
-
 	$codigo_secreto = $autenticador->createSecret();
 
-	$website = "Portal Partner HD";
-	$titulo = "alexgh@hdmexico.com.mx";
-	$url_qr_code = $autenticador->getQRCodeGoogleUrl( $titulo, $codigo_secreto, $website );
+	// Declaramos parametros
+	$website = "Portal Web";
+	$titulo = "mail@domail.com";
 
-	echo "<img src='".$url_qr_code."' /> \n";
+	// Creamos codigo QR
+	$url_qr_code = $autenticador->getQRCodeGoogleUrl( $titulo, $codigo_secreto, $website );
 
 ?>
