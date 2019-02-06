@@ -14,11 +14,11 @@
 
 	if( $resultado ){
 
-		echo "Codigo valido";
+		echo "<b>Codigo Valido!!</b> :D";
 
 	}else{
 
-		echo "Codigo invalido";
+		echo "El Codigo <b> NO ES valido </b>";
 
 	}
 

@@ -5,11 +5,13 @@
 ?>
 
 <form action="verificador.php" method="post" autocomplete="off">
-	
-	<input type="text" name="codigo" placeholder="Codigo de Seguranca">
 
-	<button>Verificar</button>
+	<p>
+		Codigo secreto: <b><?php echo $codigo_secreto; ?></b>
+	</p>
+	<input type="text" name="codigo" placeholder="Codigo de Seguridad">
 
 	<input type="hidden" value="<?php echo $codigo_secreto; ?>" name="codigosecreto">
+	<input type="submit" value="Verificar">
 
 </form>

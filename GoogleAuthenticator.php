@@ -290,7 +290,7 @@
 
 
         /*
-        * Obtenha matriz com todos os 32 caracteres para decodificação de / codificação para base32
+        * Obtenha matriz com todos os 32 caracteres para decodificación de / codificación para base32
         *
         * @return array
         */
